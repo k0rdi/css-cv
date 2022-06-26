@@ -1,0 +1,145 @@
+body{
+background-color: rgb(246, 252, 213);
+color: rgb(73, 73, 73);
+font-family: 'Source Code Pro', monospace;
+font-size: 14px;}
+.avatar {width: 200px;
+border-radius: 25px;
+box-shadow: 4px 3px 8px rgba(0, 0, 0, 25);
+}
+a{
+    color: rgba(83, 0, 0, 0.438);
+    text-decoration: none;
+}
+a:hover { text-decoration: overline;
+
+}   
+.info {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 700px){
+.info {
+    text-align: center;
+    display: block;
+}
+}
+
+
+.info-text {
+    margin-left: 40px;
+
+}
+
+.info-text h4 {
+    margin-bottom: 10px;
+}
+.info p {
+    color: #86898f;
+    margin: 0%;
+    font-style: italic;
+font-weight: lighter ;
+text-decoration: none;
+/* letter-spacing: 0.8px; */
+}
+.container{
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+.social {
+
+}
+
+.bg-love {
+    background: rgba(161, 0, 0, 0.325) ;
+}
+.bg-pink {
+        background: rgba(161, 0, 0, 0.200);
+    };
+
+.bg-red {
+ background: rgba(161, 0, 0, 0.596);
+    }
+    .bg-hui {
+        background: rgba(161, 0, 0, 0.280);
+    }
+
+.card {
+    padding: 15px 20px;
+margin-bottom: 20px;
+border-radius: 25px;
+}
+.card h2 {
+    margin-bottom: 10px;
+}
+.list {
+    padding: 1 20px;
+}
+.list li {
+    color: #49505e;
+    margin-bottom: 7px;
+}
+.table1 {
+width: 100%;
+}
+.table1 td {
+    padding-bottom: 10px;
+}
+.table1 td:nth-child(1),.table1 td:nth-child(2),.table1 td:nth-child(3) {
+    color: #49505e;
+}
+.link-bg {
+    list-style: none;
+    padding: 0%;
+}
+.link-bg li {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    /* border-bottom: 0.5px solid rgb(99, 0, 0); */
+}
+.contact h2 {
+text-align: center;
+}
+
+.form-group label {
+display: block;
+font-size: 14px;
+color: #49505e;
+}
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;;
+
+}
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+.row > .form-group {
+    width: 50%;
+    margin-right: 10px;
+}
+/* .row > */
+
+.btn {
+background: black;
+padding: 7px 10px;
+color: #fff;
+border: none;
+font-family: inherit;
+cursor: pointer;
+
+}
+.btn:hover {
+    opacity: 0.9;
+}
